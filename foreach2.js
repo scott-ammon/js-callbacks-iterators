@@ -10,8 +10,11 @@
 ];
 
 // your code here
+foods.forEach(item => console.log(item.name + ' is ' + item.level + ' delicious'));
 
 // The output should be
 // > Pizza is very delicious
 // > Tacos is mostly delicious
 // > Cottage Cheese is not very delicious
+
+

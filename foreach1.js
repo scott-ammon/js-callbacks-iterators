@@ -6,6 +6,7 @@
 var foods = ["pizza", "tacos", "ice cream"];
 
 // your code here
+foods.forEach(item => {console.log('I like', item)});
 
 // The output should be
 // > "I like pizza"
